@@ -5,40 +5,40 @@
  *  This is the single source of truth for the whole website.
  *  Change a value here and it updates everywhere automatically.
  *
- *  Brand source colors (from the logo):
- *    Primary maroon : #53122B
- *    Logo gold      : #83703B
+ *  Brand source colors:
+ *    Primary  : deep olive green
+ *    Accent   : antique gold #83703B
  * ============================================================
  */
 
 :root {
   /* ---- Raw brand colors (edit these) ---- */
-  --brand-maroon: #53122b;       /* main primary color */
-  --brand-maroon-deep: #3a0c1e;  /* darker maroon for depth */
-  --brand-maroon-soft: #6e2240;  /* lighter maroon for hovers */
-  --brand-gold: #83703b;         /* logo gold */
+  --brand-green: #243524;        /* main primary — deep olive green */
+  --brand-green-deep: #161f16;   /* darker green for depth */
+  --brand-green-soft: #3a4d36;   /* lighter olive for hovers */
+  --brand-gold: #83703b;         /* antique gold */
   --brand-gold-bright: #c8a951;  /* brighter gold for accents/text */
   --brand-gold-pale: #e7d6a0;    /* pale gold for highlights */
-  --brand-cream: #f7f1e3;        /* warm off-white */
-  --brand-ink: #1c0710;          /* near-black with maroon undertone */
+  --brand-cream: #f3f1e6;        /* warm off-white */
+  --brand-ink: #0c100b;          /* near-black with green undertone */
 
   /* ---- Semantic tokens (used across the app) ---- */
-  --background: var(--brand-maroon);
+  --background: var(--brand-green);
   --foreground: var(--brand-cream);
 
-  --card: var(--brand-maroon-deep);
+  --card: var(--brand-green-deep);
   --card-foreground: var(--brand-cream);
 
-  --popover: var(--brand-maroon-deep);
+  --popover: var(--brand-green-deep);
   --popover-foreground: var(--brand-cream);
 
-  --primary: var(--brand-maroon);
+  --primary: var(--brand-green);
   --primary-foreground: var(--brand-cream);
 
   --secondary: var(--brand-gold);
   --secondary-foreground: var(--brand-ink);
 
-  --muted: var(--brand-maroon-soft);
+  --muted: var(--brand-green-soft);
   --muted-foreground: var(--brand-gold-pale);
 
   --accent: var(--brand-gold-bright);
@@ -56,7 +56,7 @@
   --ring: var(--brand-gold-bright);
 
   /* ---- Gradients ---- */
-  --gradient-royal: linear-gradient(135deg, var(--brand-maroon-deep), var(--brand-maroon) 55%, var(--brand-maroon-soft));
+  --gradient-royal: linear-gradient(135deg, var(--brand-green-deep), var(--brand-green) 55%, var(--brand-green-soft));
   --gradient-gold: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-gold-bright) 50%, var(--brand-gold-pale) 100%);
   --gradient-veil: linear-gradient(180deg, color-mix(in srgb, var(--brand-ink) 0%, transparent), color-mix(in srgb, var(--brand-ink) 80%, transparent));
 
