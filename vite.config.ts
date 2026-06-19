@@ -12,4 +12,10 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  // To configure deployment targets, you can uncomment/set the nitro preset here:
+  nitro: {
+    // Use 'vercel' for Vercel, 'node-server' for a self-hosted Node server (AWS EC2),
+    // or 'aws-lambda' for AWS serverless.
+    preset: "vercel",
+  },
 });
