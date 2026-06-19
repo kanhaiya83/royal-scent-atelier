@@ -21,15 +21,13 @@ export function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled ? "bg-royal/95 backdrop-blur shadow-royal py-2" : "bg-transparent py-4"
-      }`}
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${scrolled ? "bg-royal/95 backdrop-blur shadow-royal py-2" : "bg-transparent py-4"
+        }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6">
         <a href="#top" className="flex items-center gap-3">
-          <img src={logo} alt="Maison Royale logo" width={48} height={48} className="h-12 w-12 object-contain" />
           <span className="font-display text-2xl font-semibold tracking-wide text-gold-pale">
-            Maison Royale
+            Parina Aura
           </span>
         </a>
 

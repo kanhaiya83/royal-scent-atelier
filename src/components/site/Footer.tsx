@@ -12,8 +12,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Maison Royale" width={44} height={44} className="h-11 w-11 object-contain" />
-            <span className="font-display text-xl text-gold-pale">Maison Royale</span>
+            <span className="font-display text-xl text-gold-pale">Parina Aura</span>
           </div>
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-foreground/65">
             Exclusive perfumes and home fragrance, hand-crafted in maroon and gold
@@ -39,7 +38,7 @@ export function Footer() {
 
       <div className="border-t border-gold/20 py-6">
         <p className="text-center text-xs uppercase tracking-[0.2em] text-foreground/45">
-          © {new Date().getFullYear()} Maison Royale · Crafted with devotion
+          © {new Date().getFullYear()} Parina Aura · Crafted with devotion
         </p>
       </div>
     </footer>

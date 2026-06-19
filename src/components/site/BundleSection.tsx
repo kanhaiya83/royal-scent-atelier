@@ -34,7 +34,7 @@ export function BundleSection() {
           <p className="mt-5 max-w-lg text-lg leading-relaxed text-foreground/80">
             All three treasures of the house, presented in a maroon-and-gold keepsake
             case lined with velvet. The definitive gift — and the most regal way to
-            begin your journey with Maison Royale.
+            begin your journey with Parina Aura.
           </p>
 
           <ul className="mt-8 space-y-3">
