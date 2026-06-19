@@ -14,13 +14,13 @@ import { Footer } from "@/components/site/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Maison Royale — Luxury Perfumes, Diffusers & Pocket Fragrance" },
+      { title: "Parina Aura — Luxury Perfumes, Diffusers & Pocket Fragrance" },
       {
         name: "description",
         content:
-          "Maison Royale crafts exclusive perfumes, a diffuser with incense sticks, and a pocket perfume — plus The Royal Box bundle. Royal scents in maroon and gold.",
+          "Parina Aura crafts exclusive perfumes, a diffuser with incense sticks, and a pocket perfume — plus The Royal Box bundle. Royal scents in maroon and gold.",
       },
-      { property: "og:title", content: "Maison Royale — Luxury Perfumes & Home Fragrance" },
+      { property: "og:title", content: "Parina Aura — Luxury Perfumes & Home Fragrance" },
       {
         property: "og:description",
         content: "Exclusive hand-poured perfumes, diffusers and pocket fragrances, crafted for royalty.",

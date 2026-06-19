@@ -14,7 +14,7 @@ export function Heritage() {
         finished in <span className="text-gradient-gold italic">gold</span>.
       </h2>
       <p className="mx-auto mt-7 max-w-2xl text-lg leading-relaxed text-foreground/75">
-        Founded in a small atelier and perfected across generations, Maison Royale
+        Founded in a small atelier and perfected across generations, Parina Aura
         treats every bottle as a coronation. We source the rarest oud, distill our
         own rose absolutes, and pour each fragrance by hand — never compromising,
         never mass-produced.

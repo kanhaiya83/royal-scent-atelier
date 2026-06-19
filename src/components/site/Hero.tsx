@@ -17,7 +17,7 @@ export function Hero() {
       <div className="relative mx-auto w-full max-w-7xl px-6">
         <div className="max-w-2xl">
           <p className="mb-7 flex items-center gap-4 text-xs uppercase tracking-royal text-gold">
-            <span className="h-px w-12 bg-gold" /> Maison Royale · Est. 1924
+            <span className="h-px w-12 bg-gold" /> Parina Aura · Est. 1924
           </p>
 
           <h1 className="font-display text-5xl font-semibold leading-[1.05] text-foreground sm:text-7xl">
